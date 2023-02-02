@@ -9,3 +9,6 @@ edition = "2021"
 jpeg-decoder = "0.3.0"
 v4l = "0.13.1"
 
+
+[build-dependencies]
+cmake = "0.1.49"
