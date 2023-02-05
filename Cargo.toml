@@ -1,13 +1,12 @@
 [package]
-name = "kinect_test"
+name = "kinect-control"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ctrlc = "3.2.4"
+image = "0.24.5"
+freenect-sys = { path = "../freenect-sys" } 
 
-
-[build-dependencies]
-cmake = "0.1.49"
-bindgen = "0.53.1"
