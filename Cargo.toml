@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 ctrlc = "3.2.4"
 image = "0.24.5"
-freenect-sys = { path = "../freenect-sys" } 
+freenect-sys = { git = "https://github.com/brandonphelps/freenect-sys.git" } 
 

@@ -1,6 +1,9 @@
 
 use freenect_sys::*;
 
+pub enum Error {
+}
+
 pub struct FreenectContext {
     ctx: *mut freenect_context,
     // temporary public.
@@ -55,8 +58,6 @@ impl FreenectContext{
         }
     }
 
-    pub fn set_video_callback(&self, callback: freenect_video_cb) {
-    }
 
     pub fn start_video(&self) -> i32 {
         unsafe {

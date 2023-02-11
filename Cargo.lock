@@ -293,6 +293,7 @@ dependencies = [
 [[package]]
 name = "freenect-sys"
 version = "0.1.0"
+source = "git+https://github.com/brandonphelps/freenect-sys.git#2127a0b3b6b4346eba09a4f9e36f6b8512d0e862"
 dependencies = [
  "bindgen",
  "cmake",
